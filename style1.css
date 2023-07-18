@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('img/background.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+header{
+    border: solid white 1px;
+    color: white;
+}
+footer{
+    color: white;
+    margin-top: auto;
+}
+.left{
+display: inline-block;
+position: absolute;
+    top: 5%;
+    background-image: url(img/dumbell.png);
+    background-size: 100%;
+    color: white;
+}
+.left div{
+    font-weight: bold;
+    font-size: 120%;
+    margin-left: 5%;
+    transition: font-size 1s;
+    transition-timing-function: ease-out;
+}
+.left div:hover{
+    font-size: 200%;
+}
+#mylogo{
+    filter: invert(100%);
+    width: 20%;
+    margin-left: 10%;
+    margin-top: -5%;
+
+}
+.mid{
+    background-color: black;
+    border: solid white 1px;
+    border-radius: 1rem;
+    display: inline-block;
+    position: absolute;
+    right: 25%;
+    top: 5%;
+}
+.mid li{
+    
+    display: inline-block;
+    padding: 1rem;
+}
+.mid li a{
+   
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size:150%;
+}
+.mid li a:hover{
+ text-decoration: underline;
+
+}
+.mid li a:active{
+    color: gray;
+   }
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 1%;
+    top: 5%;
+}
+.btn{
+    padding: -1rem;
+    border: solid white 1px;  
+    color: white;
+    font-weight: bold;
+}
+.btn a{
+    text-decoration: none;
+}
+.btn:hover{
+    color: blue;
+    background-color: white;
+}
+.imgcontainer{
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+
+}
+.imgcontainer img{
+
+    display: inline-block;
+    width: 24rem;
+    align-items: center;
+    padding: 2rem;
+}
+.imgcontainer img:hover{
+ transform: scale(1.2);
+}
+.labelcontainer{
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.labelcontainer h3{
+
+    display: inline-block;
+    width: 25rem;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: black 5px 1px;
+    padding: 2rem;
+}
+footer{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+footer h3{
+    text-align: center;
+    color: rgb(135, 139, 0);
+    text-shadow: black 5px 1px;
+}
+.formcontainer{
+    position: absolute;
+    top: 36%;
+    left: 30%;
+    text-align: center;
+}
+
+.formcontainer form input{
+    display: block;
+    width: 30rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1%;
+}
+.formcontainer form button{
+    background-color: black;
+}
